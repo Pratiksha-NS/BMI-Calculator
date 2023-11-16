@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Body Mass Index calculator using Metric units</h1>
+    <div class="container">
+        <p>Your Height: 
+            <input type="text" id="height" value="" placeholder="centimeters">
+        </p>
+        <p>Your Weight:
+            <input type="text" id="weight" value="" placeholder="kilograms">
+        </p>
+        <button type="submit" id="btn" onclick="calc()" >Compute BMI</button>
+        <p>Your BMI:
+            <input type="text" id="ans" value="" placeholder="BMI" readonly="readonly" >
+        </p>
+        <div id="result"></div>
+    </div>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
